@@ -1,0 +1,38 @@
+What will be the output of the following code ?
+#include <iostream>
+using namespace std;
+
+class Student{
+    public :
+    char name;
+    int rollNo;
+
+    Student(int num){
+        rollNo = num;
+    }
+
+    void print(){
+        cout << name << " "  <<  rollNo;
+    }
+};
+
+int main() {
+    Student *s = new Student();
+    s -> name = 'A';
+    s -> rollNo = 15;
+    s -> print();
+}
+Options:
+0. GarbageValue 0
+1. GarbageValue 15
+2. Compilation Error
+
+
+
+=====Answer=====
+Correct Option: 2
+
+
+Solution -> as we have defined user defined constructor for rollnumber attribute which means default 
+constructor is unaccessible to the compiler. hence whenever Student *s = new Student(); will be called
+it will search for the default constructor. Hence generate the compilation error :-)
