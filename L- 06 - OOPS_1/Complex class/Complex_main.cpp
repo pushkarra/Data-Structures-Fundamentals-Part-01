@@ -47,3 +47,38 @@
 // -11 + i58
 
 
+#include <bits/stdc++.h>
+using namespace std;
+#include "Complex_class.cpp"
+
+
+int main(){
+	
+	int real1,imaginary1,real2,imaginary2,choice;
+	cout<<" enter the real and imaginary part of 1st number : ";
+	cin>>real1>>imaginary1;
+	cout<<" enter the real and imaginary part of 2nd number : ";
+    cin>>real2>>imaginary2;
+    
+    Complex c1(real1,imaginary1);
+    Complex c2(real2,imaginary2);
+    
+    cout<<"enter the choice : ";
+    cin>>choice;
+    
+    switch(choice){
+    	case 1:  c1.add(c2);
+    	         c1.print();
+    	         c2.print();
+    	         break;
+    	
+		case 2:  c1.multiply(c2);
+		         c1.print();
+		         c2.print();
+		         break;
+		        
+		default: return 0;
+		         break;
+	}
+
+}
