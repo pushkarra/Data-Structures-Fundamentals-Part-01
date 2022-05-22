@@ -1,0 +1,10 @@
+
+Which of the following functions can be inherited from the base class?
+
+
+1. Constructor
+2. Static
+3. Destructor
+4. None
+
+Solution : 4) None
