@@ -1,0 +1,5 @@
+Data members and member functions of a class are private. default. True or False?
+
+
+
+Solution :- True
