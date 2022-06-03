@@ -49,13 +49,13 @@ Node *insertNode(Node *head, int index , int data){
 		return head;
 	}
 	
-	while(temp != NULL && counter < index-1){  // temp != NULL because we want to safe it grom wrong index numbers
+	while(temp != NULL && counter < index-1){  // temp != NULL because we want to safe it from wrong index numbers
 		temp = temp -> next;
 		counter++;
 	}
 	
 	if(temp != NULL){
-		Node *a = temp -> next;               // Ist approach with use of third nocde variable
+		Node *a = temp -> next;               // Ist approach with use of third node variable
 		temp -> next = newNode;
 		newNode -> next = a;
 	}
