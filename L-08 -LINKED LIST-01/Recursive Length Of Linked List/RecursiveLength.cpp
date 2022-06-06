@@ -1,3 +1,23 @@
+// Problem Statement: Length of LL (recursive)
+// Problem Level: EASY
+// Problem Description:
+// Given a linked list, find and return the length of input LL recursively.
+// Input format :
+// Linked list elements (separated by space and terminated by -1)
+
+// Output format :
+// Length of LL
+
+// Sample Input :
+// 3 4 5 2 6 1 9 -1
+
+// Sample Output :
+// 7
+
+
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
