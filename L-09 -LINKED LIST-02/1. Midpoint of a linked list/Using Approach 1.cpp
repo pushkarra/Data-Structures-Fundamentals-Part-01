@@ -34,14 +34,6 @@ Sample Input 1 :
 
 Sample Output 1 :
 3
-
-Sample Input 2 :
-2 
--1
-1 2 3 4 -1
-
-Sample Output 2 :
-2
 */
 
 
