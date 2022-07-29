@@ -140,7 +140,7 @@ void print (Node *head){
 int main(){
 	
 	int index;
-	Node *head = modifiedGetInput();
+	Node *head = modifiedGetInput();    // we are calling the modified input part
 	print(head);
 	cout<<endl;
 	cin>>index;
